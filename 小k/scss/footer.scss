@@ -1,0 +1,38 @@
+.footer{
+  background:#333333;
+   color:#fff;
+  padding:15px 0;
+  // height:125px;
+  div:nth-child(1){
+    img{
+      width:50px;
+      height:20px;
+    }
+    p{
+      font-size:14px;
+      margin:0;
+    }
+  }
+  div{
+    position: relative;
+    height:100px;
+    p{
+      font-size:14px;
+    }
+    &:after{
+      content:' ';
+      width:1px;
+      height:50%;
+      position: absolute;
+      top:25%;
+      right:-65%;
+      background: #757575;
+
+    }
+  }
+  div:nth-of-type(3){
+    &:after{
+      display:none;
+    }
+  }
+}

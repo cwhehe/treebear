@@ -1,0 +1,647 @@
+.navbar {
+  width: 100%;
+  background: #333;
+  position: fixed;
+  z-index: 10;
+}
+
+.navbar .navbar-brand {
+  margin-right: 10%;
+}
+
+.navbar .nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 14px;
+}
+
+.navbar .nav .nav-item .nav-link:hover {
+  color: #21D1BE;
+}
+
+.navbar .nav .nav-item .active {
+  color: #21D1BE;
+}
+
+.footer {
+  background: #333333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.footer div:nth-child(1) img {
+  width: 50px;
+  height: 20px;
+}
+
+.footer div:nth-child(1) p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer div {
+  position: relative;
+  height: 100px;
+}
+
+.footer div p {
+  font-size: 14px;
+}
+
+.footer div:after {
+  content: ' ';
+  width: 1px;
+  height: 50%;
+  position: absolute;
+  top: 25%;
+  right: -65%;
+  background: #757575;
+}
+
+.footer div:nth-of-type(3):after {
+  display: none;
+}
+
+.navbar {
+  position: static;
+}
+
+.navbar .nav .nav-item .active {
+  color: #21D1BE;
+}
+
+.footer {
+  background: #f3f3f3;
+  color: #333;
+}
+
+.detail {
+  width: 100%;
+  padding: 5% 25%;
+  background: #f8f8f8;
+}
+
+.detail h2 {
+  color: #333;
+  font-weight: 500;
+}
+
+.detail p {
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.baner {
+  position: relative;
+  background: url("../img/Attract/banner.png") center center no-repeat;
+  background-size: cover;
+}
+
+.baner .bgText {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 40px 10px;
+  color: #fff;
+}
+
+.baner h3 {
+  font-size: 32px;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: #fff;
+  line-height: 45px;
+}
+
+.baner .pathp span:nth-child(1) {
+  position: relative;
+  margin-right: 30px;
+}
+
+.baner .pathp span:nth-child(1):after {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 60%;
+  top: 20%;
+  right: -15px;
+  background: #fff;
+}
+
+.baner .container .listWrapper {
+  position: relative;
+}
+
+.baner .container .listWrapper p {
+  margin: 0;
+}
+
+.baner .container .listWrapper .ptext1 {
+  font-size: 20px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #fff;
+  line-height: 25px;
+  margin-top: 8px;
+}
+
+.baner .container .listWrapper .ptext2 {
+  font-size: 14px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #fff;
+  line-height: 25px;
+}
+
+.baner .container .listWrapper:after {
+  position: absolute;
+  width: 2px;
+  height: 40%;
+  right: -110%;
+  top: 40%;
+  background: #34eba4;
+  content: '';
+}
+
+.baner .container .listWrapper:nth-of-type(3):after {
+  display: none;
+}
+
+.main .mainBox {
+  padding: 45px 0;
+}
+
+.main .mainBox h2 {
+  font-size: 24px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 34px;
+}
+
+.main .mainBox h4 {
+  font-size: 18px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 25px;
+}
+
+.main .mainBox .iconBox .leftIcon {
+  background: url("../img/Attract/mainleftIcon.png") center center no-repeat;
+  background-size: contain;
+  width: 120px;
+  height: 140px;
+}
+
+.main .mainBox .iconBox .leftIcon img {
+  width: 49px;
+}
+
+.main .mainBox .iconBox .leftIcon p {
+  width: 126px;
+  height: 33px;
+  font-size: 14px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 33px;
+}
+
+.main .mainBox .iconBox .centerIcon {
+  background: url("../img/Attract/maincenterIcon.png") center center no-repeat;
+  background-size: contain;
+  width: 120px;
+  height: 140px;
+}
+
+.main .mainBox .iconBox .rightIcon {
+  background: url("../img/Attract/mainrightIcon.png") center center no-repeat;
+  background-size: contain;
+  width: 120px;
+  height: 140px;
+}
+
+.main .mainBox .iconBox .mainCenterImgBox {
+  margin: 0 40px;
+}
+
+.main .mainBox .iconBox .mainCenterImgBox .mainCenterImg {
+  margin-top: 40px;
+  width: 200px;
+}
+
+.main .mainBox .iconBox .mainCenterImgBox .btns {
+  border: none;
+  width: 150px;
+  height: 37px;
+  margin-top: 40px;
+  background: url("../img/Attract/btns.png") center center no-repeat;
+  background-size: cover;
+}
+
+.mainbglight {
+  padding: 45px 0;
+  background: #ebebeb;
+}
+
+.mainbglight h2 {
+  font-size: 24px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 34px;
+}
+
+.mainbglight .container {
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.mainbglight .container h4 {
+  font-size: 18px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 25px;
+  text-indent: 10px;
+}
+
+.mainbglight .container table tr:nth-child(1) {
+  background: linear-gradient(135deg, #34eba4 0%, #1ad1cc 100%);
+}
+
+.mainbglight .container table tr:nth-child(1) td {
+  font-size: 18px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 25px;
+  text-indent: 10px;
+}
+
+.mainbglight .container table tr td:nth-of-type(1) {
+  font-size: 18px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 25px;
+}
+
+.mainbglight .container table tr td {
+  font-size: 14px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 20px;
+}
+
+.imgBox {
+  padding: 20px 0;
+}
+
+.imgBox h2 {
+  font-size: 24px;
+  font-family: 'PingFang-SC-Bold';
+  font-weight: 400;
+  color: #333333;
+  line-height: 34px;
+}
+
+.imgBox p {
+  font-size: 14px;
+  font-family: 'PingFang-SC-Medium';
+  font-weight: 400;
+  color: #333333;
+  line-height: 24px;
+}
+
+.imgBox ul {
+  width: 100%;
+}
+
+.imgBox ul li img {
+  width: 100%;
+}
+
+.timBox {
+  background: url("../img/Attract/timbg.png") center center no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.timBox img {
+  width: 100%;
+}
+
+.timBox .timTextBox {
+  padding: 20px 0;
+}
+
+.timBox .timTextBox h4 {
+  font-size: 24px;
+  font-family: 'PingFang-SC-Bold';
+  font-weight: 400;
+  color: white;
+  line-height: 34px;
+}
+
+.timBox .timTextBox p {
+  font-size: 18px;
+  font-family: 'PingFang-SC-Medium';
+  font-weight: 500;
+  color: white;
+  line-height: 25px;
+}
+
+.timBox .timTextBox ul.container li img {
+  width: 80%;
+}
+
+.offlineWrapper {
+  padding: 50px 0 20px 0;
+}
+
+.offlineWrapper h2 {
+  font-size: 24px;
+  font-family: 'PingFang-SC-Bold';
+  color: #333333;
+  line-height: 34px;
+}
+
+.offlineWrapper .offlineList .list {
+  background: #e9e9e9;
+  width: 12%;
+  padding: 20px 15px;
+}
+
+.offlineWrapper .offlineList .list h4 {
+  font-size: 24px;
+  font-family: PingFang-SC-Medium;
+  font-weight: normal;
+  color: white;
+  line-height: 34px;
+}
+
+.offlineWrapper .offlineList .list p {
+  font-size: 16px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: white;
+  line-height: 20px;
+  margin: 0;
+}
+
+.offlineWrapper .offlineList .list h5 {
+  font-size: 16px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 24px;
+}
+
+.offlineWrapper .offlineList .list span {
+  font-size: 14px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 18px;
+}
+
+.offlineWrapper .offlineList .list:nth-child(1) {
+  background: url("../img/Attract/listOneBg.png") center center no-repeat;
+  padding: 50px 25px;
+}
+
+.joinUs {
+  padding: 80px 0;
+  background: url("../img/Attract/joinBg.png") center center no-repeat;
+  background-size: cover;
+}
+
+.joinUs h2 {
+  font-size: 24px;
+  font-family: PingFang-SC-Bold;
+  color: white;
+  line-height: 34px;
+}
+
+.joinUs .list {
+  width: 15%;
+  padding: 40px 25px;
+  background: #f2f2f2;
+  border-radius: 6px;
+}
+
+.joinUs .list p {
+  font-size: 15px;
+  font-family: PingFang-SC-Medium;
+  font-weight: normal;
+  color: #333333;
+  line-height: 24px;
+}
+
+.joinForm {
+  background: url("../img/Attract/joinUsBg.png") center center no-repeat;
+  background-size: cover;
+}
+
+.joinForm h2 {
+  font-size: 24px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: white;
+  line-height: 67px;
+}
+
+.joinForm .joinFromBox .row .left {
+  position: relative;
+}
+
+.joinForm .joinFromBox .row .left h4 {
+  font-size: 18px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: white;
+  line-height: 50px;
+}
+
+.joinForm .joinFromBox .row .left p {
+  font-size: 16px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: white;
+  line-height: 33px;
+}
+
+.joinForm .joinFromBox .row .left i {
+  font-style: normal;
+  font-size: 12px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: white;
+  line-height: 33px;
+}
+
+.joinForm .joinFromBox .row .left:after {
+  content: '';
+  width: 1px;
+  height: 40%;
+  position: absolute;
+  background: #d1d1d1;
+  right: 0;
+  top: 20%;
+}
+
+.joinForm .right .form-group label {
+  width: 100px;
+  text-align: right;
+}
+
+.joinForm .right .form-group input {
+  width: 220px;
+  height: 35px;
+  border: solid 1px #ededed;
+  border-radius: 3px;
+  line-height: 35px;
+  padding-left: 5px;
+  background: #ededed;
+}
+
+.joinForm .right .form-group .joinBtn {
+  background: url("../img/Attract/joinBtn.png") center center no-repeat;
+  background-size: contain;
+  border: none;
+}
+
+.join_step {
+  padding: 40px 0;
+  background: #f9f9f9;
+}
+
+.join_step h2 {
+  font-size: 24px;
+  font-family: 'PingFang-SC-Bold';
+  color: #333333;
+  line-height: 34px;
+}
+
+.join_step .joinStep .joinStepList {
+  width: 120px;
+}
+
+.join_step .joinStep .joinStepList img {
+  width: 30%;
+}
+
+.join_step .joinStep .joinStepList p {
+  font-size: 14px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 24px;
+  margin-top: 12px;
+}
+
+.personOperation {
+  padding: 42px 0;
+  background: #f6f6f6;
+}
+
+.personOperation h2 {
+  font-size: 24px;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: #333333;
+  line-height: 34px;
+}
+
+.personOperation .container .bottomBox .circleBox {
+  width: 190px;
+}
+
+.personOperation .container .bottomBox .circleBox .circle {
+  width: 120px;
+  height: 120px;
+  border: solid 2px #666;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.personOperation .container .bottomBox .circleBox .circle img {
+  vertical-align: middle;
+  width: 30px;
+  margin-top: 30px;
+}
+
+.personOperation .container .bottomBox .circleBox p {
+  font-size: 14px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 25px;
+}
+
+.personOperation .container .topBox {
+  padding-left: 40%;
+}
+
+.personOperation .container .topBox img {
+  width: 50%;
+}
+
+.personOperation .container .middleBox .middleBg {
+  width: 113px;
+  height: 113px;
+  background: url("../img/Attract/personBg.png") center center no-repeat;
+  background-size: contain;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.personOperation .container .middleBox .middleBg p {
+  font-size: 18px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: white;
+  line-height: 25px;
+}
+
+.cardBox {
+  padding: 50px 0;
+}
+
+.cardBox h2 {
+  font-size: 24px;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: #333333;
+  line-height: 34px;
+}
+
+.cardBox .cardWrapper .card {
+  width: 220px;
+}
+
+.cardBox .cardWrapper .card .img {
+  width: 100%;
+}
+
+.cardBox .cardWrapper .card .card-body .card-title {
+  font-size: 18px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 24px;
+}
+
+.cardBox .cardWrapper .card .card-body .card-text {
+  font-size: 14px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 20px;
+}
