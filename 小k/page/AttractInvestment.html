@@ -19,7 +19,7 @@
         <a class="nav-link" href="/index.html">产品</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">商城</a>
+        <a class="nav-link" target="_blank" href="https://shop.treebear.net">商城</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="serve.html">服务</a>
@@ -30,11 +30,19 @@
       <li class="nav-item">
         <a class="nav-link active" href="AttractInvestment.html">招商</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">我们</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          关于我们
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="about.html">关于我们</a>
+          <a class="dropdown-item" href="contant.html">联系我们</a>
+          <a class="dropdown-item" href="serve.html">新闻中心</a>
+        </div>
       </li>
       <li class="nav-item" style="margin-left:10rem;">
-        <a class="nav-link" href="login.html">登录</a>
+        <a class="nav-link" target="_blank" href="http://agent.famwifi.com">登录</a>
       </li>
     </ul>
   </div>
@@ -68,7 +76,7 @@
       <h4 class="text-center">让我们一起来做一件有价值并长期收益的事业</h2>
         <div class="iconBox d-flex justify-content-center align-items-center">
           <div class="leftIcon text-center d-flex justify-content-center align-items-center flex-column">
-            <img src="../img/Attract/leftIconInner.png.png" alt="">
+            <img src="../img/Attract/leftIconInner.png" alt="">
             <p>卖点突出</p>
           </div>
           <div class="mainCenterImgBox d-flex justify-content-center align-items-center flex-column">
@@ -117,6 +125,10 @@
     </div>
   </div>
   <!-- table end -->
+  <!-- <video id="video1" width="100%" height="100%" poster="../img/titleBg.png" controls="">
+    <source src="../img/Attr" type="video/mp4">
+
+  </video> -->
   <!-- 长期收益，后向运营收入 -->
   <div class="personOperation">
     <h2 class="text-center">长期收益，后向运营收入</h2>
@@ -385,7 +397,7 @@
   </div>
   <footer class="footer d-flex justify-content-around align-items-center">
     <div class="d-flex align-items-center">
-      <img src="img/logo.png" alt="">
+      <img src="../img/logo.png" alt="">
       <p>小k管家</p>
     </div>
     <div>
@@ -401,6 +413,7 @@
 
 </html>
 <script src="../lib/js/jquery.min.js"></script>
+<script src="../lib/js/bootstrap.min.js"></script>
 <script>
   $(document).ready(function () {
     console.log($(window).innerHeight())

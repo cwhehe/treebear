@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
   <link rel="stylesheet" href="../css/login.css">
   <title>登录</title>
 </head>
+
 <body>
   <div class="navbar justify-content-center header">
     <a class="navbar-brand" href="#"><img src="../img/logo.png" alt=""></a>
@@ -18,7 +20,7 @@
         <a class="nav-link" href="/index.html">产品</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">商城</a>
+        <a class="nav-link" href="https://shop.treebear.net">商城</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="serve.html">服务</a>
@@ -29,42 +31,50 @@
       <li class="nav-item">
         <a class="nav-link" href="AttractInvestment.html">招商</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">我们</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          关于我们
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="about.html">关于我们</a>
+          <a class="dropdown-item" href="contant.html">联系我们</a>
+          <a class="dropdown-item" href="serve.html">新闻中心</a>
+        </div>
       </li>
       <li class="nav-item">
-          <a class="nav-link active" href="login.html">登录</a>
+        <a class="nav-link active" href="login.html">登录</a>
       </li>
     </ul>
   </div>
   <div class="container-fluid container-box">
-      <div class="row loginBox">
-          <div class="col-sm-6 lb-lt">
-            <h2>小k</h2>
-            <p>小K管家，全国首批量产 智能管家，关注孩子上网健康 海量照片自动备份，智能分类 </p>
-            <img class="mt-4" src="../img/login/price.png" alt="">
-            <div class="bitmap mt-5">
-              <img src="../img/login/Bitmap.png" alt="">
-            </div>
-          </div>
-          <div class="col-sm-6 lb-gt mt-5">
-              <form class="form-box">
-                <h4 class="text-center mt-5">账号登录</h4>
-                  <div class="form-group mt-3">
-                    <input type="email" class="userName" id="exampleInputEmail1"  placeholder="请输入账号" autocomplete="off">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="userName" id="exampleInputPassword1" placeholder="Password">
-                  </div>
-                  <input type="button" class="loginBtn"></button>
-                </form>
+    <div class="row loginBox">
+      <div class="col-sm-6 lb-lt">
+        <h2>小k</h2>
+        <p>小K管家，全国首批量产 智能管家，关注孩子上网健康 海量照片自动备份，智能分类 </p>
+        <img class="mt-4" src="../img/login/price.png" alt="">
+        <div class="bitmap mt-5">
+          <img src="../img/login/Bitmap.png" alt="">
         </div>
       </div>
+      <div class="col-sm-6 lb-gt mt-5">
+        <form class="form-box">
+          <h4 class="text-center mt-5">账号登录</h4>
+          <div class="form-group mt-3">
+            <input type="email" class="userName" id="exampleInputUsername" placeholder="请输入账号" autocomplete="off">
+          </div>
+          <div class="form-group">
+            <input type="password" class="userName" id="exampleInputPassword" placeholder="Password">
+          </div>
+          <input type="button" class="loginBtn"></button>
+        </form>
+      </div>
+    </div>
   </div>
- 
+
   <footer class="footer d-flex justify-content-around align-items-center">
     <div class="d-flex align-items-center">
-      <img src="img/logo.png" alt="">
+      <img src="../img/logo.png" alt="">
       <p>小k管家</p>
     </div>
     <div>
@@ -77,4 +87,7 @@
     </div>
   </footer>
 </body>
+
 </html>
+<script src="../lib/js/jquery.min.js"></script>
+<script src="../lib/js/bootstrap.min.js"></script>
