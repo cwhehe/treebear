@@ -3,15 +3,24 @@
   background: #333;
   position: fixed;
   z-index: 10;
+  height: 60px;
 }
 
 .navbar .navbar-brand {
-  margin-right: 7rem;
+  margin-right: 10%;
+}
+
+.navbar .navbar-brand img {
+  width: 50px;
 }
 
 .navbar .nav .nav-item .nav-link {
   color: #fff;
   font-size: 14px;
+}
+
+.navbar .nav .nav-item .nav-link:hover {
+  color: #21D1BE;
 }
 
 .navbar .nav .nav-item .active {
@@ -21,17 +30,17 @@
 .footer {
   background: #333333;
   color: #fff;
-  padding: 15px 0;
+  padding: 35px 0;
 }
 
 .footer div:nth-child(1) img {
   width: 50px;
-  height: 20px;
 }
 
 .footer div:nth-child(1) p {
   font-size: 14px;
   margin: 0;
+  margin-left: 15px;
 }
 
 .footer div {
@@ -43,30 +52,52 @@
   font-size: 14px;
 }
 
+.footer div p:nth-of-type(2) {
+  margin: 10px 0;
+}
+
 .footer div:after {
   content: ' ';
   width: 1px;
   height: 50%;
   position: absolute;
   top: 25%;
-  right: -65%;
+  right: -90px;
   background: #757575;
+}
+
+.footer div:nth-of-type(2) {
+  margin: 0 180px;
 }
 
 .footer div:nth-of-type(3):after {
   display: none;
 }
 
+.footer .appQcode img {
+  width: 80px;
+}
+
 .baner img {
   width: 100%;
 }
 
+.navbar {
+  position: initial;
+}
+
 .contentInfo {
-  padding: 20px 0;
+  width: 70%;
+  margin: 50px auto;
+}
+
+.contentInfo .row .left {
+  padding-right: 40px;
 }
 
 .contentInfo .row .left .Beforeline {
-  font-size: 24px;
+  margin-top: 50px;
+  font-size: 16px;
   position: relative;
   text-indent: 10px;
   color: #333;
@@ -82,13 +113,27 @@
   top: 10%;
 }
 
-.contentInfo .row .left p:nth-of-type(2), .contentInfo .row .left p:nth-of-type(3), .contentInfo .row .left p:nth-of-type(5), .contentInfo .row .left p:nth-of-type(6) {
-  font-size: 14px;
+.contentInfo .row .left .Beforeline:nth-of-type(1) {
   margin: 0;
 }
 
+.contentInfo .row .left p:nth-of-type(2), .contentInfo .row .left p:nth-of-type(3), .contentInfo .row .left p:nth-of-type(5), .contentInfo .row .left p:nth-of-type(6) {
+  margin: 0;
+}
+
+.contentInfo .row .left p {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+  color: #333;
+}
+
+.contentInfo .row .right {
+  padding-left: 50px;
+}
+
 .contentInfo .row .right .Beforeline {
-  font-size: 24px;
+  font-size: 16px;
   position: relative;
   text-indent: 10px;
   color: #333;
@@ -104,18 +149,11 @@
   top: 10%;
 }
 
-.contentInfo .row .right p:nth-of-type(2), .contentInfo .row .right p:nth-of-type(3), .contentInfo .row .right p:nth-of-type(5), .contentInfo .row .right p:nth-of-type(4), .contentInfo .row .right p:nth-of-type(6) {
+.contentInfo .row .right p {
   font-size: 14px;
   margin: 0;
   font-weight: 500;
-}
-
-.contentInfo .row .right p:nth-of-type(2), .contentInfo .row .right p:nth-of-type(3), .contentInfo .row .right p:nth-of-type(5), .contentInfo .row .right p:nth-of-type(4) {
   color: #333;
-}
-
-.contentInfo .row .right p:nth-of-type(6) {
-  color: #666;
 }
 
 .cooperation {
@@ -131,31 +169,63 @@
 }
 
 .cooperation h5 {
-  font-size: 18px;
+  font-size: 16px;
   font-family: PingFang-SC-Medium;
   font-weight: 500;
   color: #666666;
   line-height: 25px;
 }
 
-.cooperation .listWrapper p {
+.cooperation .cooperationWrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.cooperation .cooperationWrapper .listWrapper p {
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
   font-family: PingFangSC-Semibold;
+  font-weight: 600;
   color: #333333;
   line-height: 33px;
 }
 
-.cooperation .listWrapper span {
+.cooperation .cooperationWrapper .listWrapper span {
   display: block;
   width: 200px;
-  font-size: 16px;
+  font-size: 15px;
   font-family: PingFang-SC-Medium;
   font-weight: 500;
   color: #333333;
   line-height: 33px;
 }
 
+.cooperation .cooperationWrapper .listWrapper img {
+  width: 30px;
+}
+
+.cooperation .cooperationWrapper .listWrapper:nth-of-type(2) img {
+  width: 36px;
+}
+
+.cooperation .cooperationWrapper .listWrapper:nth-of-type(3) img {
+  width: 36px;
+}
+
+.userInfoTable table {
+  word-wrap: break-word;
+  table-layout: fixed;
+  width: 70%;
+  margin: 20px auto;
+}
+
 .userInfoTable table tr:nth-of-type(1) {
   background: linear-gradient(135deg, #34eba4 0%, #1ad1cc 100%);
+  color: #fff;
+}
+
+.userInfoTable table tr td {
+  font-size: 16px;
+  vertical-align: middle;
+  padding: 10px;
 }

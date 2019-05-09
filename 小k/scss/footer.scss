@@ -1,16 +1,17 @@
 .footer{
   background:#333333;
    color:#fff;
-  padding:15px 0;
+  padding:35px 0;
   // height:125px;
   div:nth-child(1){
     img{
       width:50px;
-      height:20px;
+     
     }
     p{
       font-size:14px;
       margin:0;
+      margin-left:15px;
     }
   }
   div{
@@ -19,20 +20,31 @@
     p{
       font-size:14px;
     }
+    p:nth-of-type(2){
+      margin:10px 0;
+    }
     &:after{
       content:' ';
       width:1px;
       height:50%;
       position: absolute;
       top:25%;
-      right:-65%;
+      right:-90px;
       background: #757575;
 
     }
   }
+  div:nth-of-type(2){
+      margin:0 180px
+  }
   div:nth-of-type(3){
     &:after{
       display:none;
+    }
+  }
+  .appQcode{
+    img{
+      width:80px;
     }
   }
 }

@@ -3,10 +3,15 @@
   background: #333;
   position: fixed;
   z-index: 10;
+  height: 60px;
 }
 
 .navbar .navbar-brand {
   margin-right: 10%;
+}
+
+.navbar .navbar-brand img {
+  width: 50px;
 }
 
 .navbar .nav .nav-item .nav-link {
@@ -25,17 +30,17 @@
 .footer {
   background: #333333;
   color: #fff;
-  padding: 15px 0;
+  padding: 35px 0;
 }
 
 .footer div:nth-child(1) img {
   width: 50px;
-  height: 20px;
 }
 
 .footer div:nth-child(1) p {
   font-size: 14px;
   margin: 0;
+  margin-left: 15px;
 }
 
 .footer div {
@@ -47,18 +52,30 @@
   font-size: 14px;
 }
 
+.footer div p:nth-of-type(2) {
+  margin: 10px 0;
+}
+
 .footer div:after {
   content: ' ';
   width: 1px;
   height: 50%;
   position: absolute;
   top: 25%;
-  right: -65%;
+  right: -90px;
   background: #757575;
+}
+
+.footer div:nth-of-type(2) {
+  margin: 0 180px;
 }
 
 .footer div:nth-of-type(3):after {
   display: none;
+}
+
+.footer .appQcode img {
+  width: 80px;
 }
 
 .navbar {
@@ -67,11 +84,6 @@
 
 .navbar .nav .nav-item .active {
   color: #21D1BE;
-}
-
-.footer {
-  background: #f3f3f3;
-  color: #333;
 }
 
 .detail {
@@ -94,7 +106,7 @@
 
 .baner {
   position: relative;
-  background: url("../img/Attract/banner.png") center center no-repeat;
+  background: url("../img/Attract/banner.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -104,14 +116,13 @@
   height: 100%;
   left: 0;
   top: 0;
-  padding: 40px 10px;
+  padding: 60px 10px;
   color: #fff;
 }
 
 .baner h3 {
   font-size: 32px;
   font-family: PingFang-SC-Bold;
-  font-weight: bold;
   color: #fff;
   line-height: 45px;
 }
@@ -131,16 +142,25 @@
   background: #fff;
 }
 
-.baner .container .listWrapper {
+.baner .container .containerWrapper {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.baner .container .containerWrapper .listWrapper {
   position: relative;
 }
 
-.baner .container .listWrapper p {
+.baner .container .containerWrapper .listWrapper p {
   margin: 0;
 }
 
-.baner .container .listWrapper .ptext1 {
-  font-size: 20px;
+.baner .container .containerWrapper .listWrapper img {
+  width: 30px;
+}
+
+.baner .container .containerWrapper .listWrapper .ptext1 {
+  font-size: 18px;
   font-family: PingFang-SC-Medium;
   font-weight: 500;
   color: #fff;
@@ -148,25 +168,42 @@
   margin-top: 8px;
 }
 
-.baner .container .listWrapper .ptext2 {
-  font-size: 14px;
+.baner .container .containerWrapper .listWrapper .ptext2 {
+  font-size: 13px;
   font-family: PingFang-SC-Medium;
   font-weight: 500;
   color: #fff;
   line-height: 25px;
 }
 
-.baner .container .listWrapper:after {
+.baner .container .containerWrapper .listWrapper:after {
   position: absolute;
   width: 2px;
   height: 40%;
-  right: -110%;
+  right: -50px;
   top: 40%;
-  background: #34eba4;
+  border-left: dashed 1px #21D1BE;
   content: '';
 }
 
-.baner .container .listWrapper:nth-of-type(3):after {
+.baner .container .containerWrapper .listWrapper:nth-of-type(2) {
+  margin-left: 100px;
+}
+
+.baner .container .containerWrapper .listWrapper:nth-of-type(2) img {
+  width: 40px;
+}
+
+.baner .container .containerWrapper .listWrapper:nth-of-type(3) {
+  margin-left: 100px;
+}
+
+.baner .container .containerWrapper .listWrapper:nth-of-type(3) img {
+  width: 40px;
+  margin-top: 5px;
+}
+
+.baner .container .containerWrapper .listWrapper:nth-of-type(3):after {
   display: none;
 }
 
@@ -188,6 +225,7 @@
   font-weight: 500;
   color: #333333;
   line-height: 25px;
+  margin-bottom: 20px;
 }
 
 .main .mainBox .iconBox .leftIcon {
@@ -230,13 +268,13 @@
 }
 
 .main .mainBox .iconBox .mainCenterImgBox .mainCenterImg {
-  margin-top: 40px;
-  width: 200px;
+  margin-top: 20px;
+  width: 220px;
 }
 
 .main .mainBox .iconBox .mainCenterImgBox .btns {
   border: none;
-  width: 150px;
+  width: 180px;
   height: 37px;
   margin-top: 40px;
   background: url("../img/Attract/btns.png") center center no-repeat;
@@ -268,6 +306,13 @@
   color: #333333;
   line-height: 25px;
   text-indent: 10px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.mainbglight .container table {
+  width: 80%;
+  margin-left: 10%;
 }
 
 .mainbglight .container table tr:nth-child(1) {
@@ -278,17 +323,9 @@
   font-size: 18px;
   font-family: PingFang-SC-Medium;
   font-weight: 500;
-  color: #333333;
-  line-height: 25px;
+  color: #fff;
   text-indent: 10px;
-}
-
-.mainbglight .container table tr td:nth-of-type(1) {
-  font-size: 18px;
-  font-family: PingFang-SC-Medium;
-  font-weight: 500;
-  color: #333333;
-  line-height: 25px;
+  width: 120px;
 }
 
 .mainbglight .container table tr td {
@@ -296,7 +333,12 @@
   font-family: PingFang-SC-Medium;
   font-weight: 500;
   color: #333333;
-  line-height: 20px;
+  vertical-align: middle;
+}
+
+.mainbglight2 table {
+  word-wrap: break-word;
+  table-layout: fixed;
 }
 
 .imgBox {
@@ -319,11 +361,17 @@
   line-height: 24px;
 }
 
-.imgBox ul {
-  width: 100%;
+.imgBox .swiperMedal {
+  margin-top: 20px;
 }
 
-.imgBox ul li img {
+.imgBox .swiperMedal .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.imgBox .swiperMedal .swiper-wrapper .swiper-slide img {
   width: 100%;
 }
 
@@ -334,7 +382,7 @@
 }
 
 .timBox img {
-  width: 100%;
+  width: 95%;
 }
 
 .timBox .timTextBox {
@@ -357,8 +405,9 @@
   line-height: 25px;
 }
 
-.timBox .timTextBox ul.container li img {
-  width: 80%;
+.timBox .timTextBox .container ul {
+  width: 90%;
+  margin-left: 5%;
 }
 
 .offlineWrapper {
@@ -418,7 +467,7 @@
 
 .joinUs {
   padding: 80px 0;
-  background: url("../img/Attract/joinBg.png") center center no-repeat;
+  background: url("../img/Attract/joinBg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -430,10 +479,10 @@
 }
 
 .joinUs .list {
-  width: 15%;
-  padding: 40px 25px;
+  width: 18%;
+  padding: 40px 15px;
   background: #f2f2f2;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
 .joinUs .list p {
@@ -445,7 +494,7 @@
 }
 
 .joinForm {
-  background: url("../img/Attract/joinUsBg.png") center center no-repeat;
+  background: url("../img/Attract/joinUsBg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -466,7 +515,7 @@
   font-family: PingFang-SC-Medium;
   font-weight: 500;
   color: white;
-  line-height: 50px;
+  line-height: 24px;
 }
 
 .joinForm .joinFromBox .row .left p {
@@ -483,7 +532,11 @@
   font-family: PingFang-SC-Medium;
   font-weight: 500;
   color: white;
-  line-height: 33px;
+  line-height: 40px;
+}
+
+.joinForm .joinFromBox .row .left img {
+  margin-top: 30px;
 }
 
 .joinForm .joinFromBox .row .left:after {
@@ -496,17 +549,23 @@
   top: 20%;
 }
 
+.joinForm .right .form-group {
+  margin-bottom: 2px;
+}
+
 .joinForm .right .form-group label {
   width: 100px;
   text-align: right;
+  color: #fff;
+  font-size: 14px;
 }
 
 .joinForm .right .form-group input {
   width: 220px;
-  height: 35px;
+  height: 28px;
   border: solid 1px #ededed;
   border-radius: 3px;
-  line-height: 35px;
+  line-height: 28px;
   padding-left: 5px;
   background: #ededed;
 }
@@ -515,35 +574,45 @@
   background: url("../img/Attract/joinBtn.png") center center no-repeat;
   background-size: contain;
   border: none;
+  margin: 8px 0;
 }
 
-.join_step {
-  padding: 40px 0;
+.join_stepWrapper {
   background: #f9f9f9;
 }
 
-.join_step h2 {
+.join_stepWrapper .join_step {
+  padding: 40px 0;
+  width: 72%;
+  margin-left: 14%;
+}
+
+.join_stepWrapper .join_step h2 {
   font-size: 24px;
   font-family: 'PingFang-SC-Bold';
   color: #333333;
   line-height: 34px;
 }
 
-.join_step .joinStep .joinStepList {
-  width: 120px;
+.join_stepWrapper .join_step .joinStep .joinStepList {
+  width: 80px;
 }
 
-.join_step .joinStep .joinStepList img {
-  width: 30%;
+.join_stepWrapper .join_step .joinStep .joinStepList img {
+  width: 40%;
 }
 
-.join_step .joinStep .joinStepList p {
+.join_stepWrapper .join_step .joinStep .joinStepList p {
   font-size: 14px;
   font-family: PingFang-SC-Medium;
   font-weight: 500;
   color: #333333;
-  line-height: 24px;
+  line-height: 20px;
   margin-top: 12px;
+}
+
+.join_stepWrapper .join_step .joinStep .joinStepList p:nth-of-type(1), .join_stepWrapper .join_step .joinStep .joinStepList :nth-of-type(5) {
+  height: 40px;
 }
 
 .personOperation {
@@ -559,16 +628,23 @@
   line-height: 34px;
 }
 
+.personOperation .container .bottomBox {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 30px;
+}
+
 .personOperation .container .bottomBox .circleBox {
   width: 190px;
 }
 
 .personOperation .container .bottomBox .circleBox .circle {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border: solid 2px #666;
   border-radius: 50%;
   text-align: center;
+  margin-left: 45px;
 }
 
 .personOperation .container .bottomBox .circleBox .circle img {
@@ -583,14 +659,23 @@
   font-weight: 500;
   color: #333333;
   line-height: 25px;
+  text-align: center;
 }
 
 .personOperation .container .topBox {
-  padding-left: 40%;
+  padding-left: 45%;
 }
 
 .personOperation .container .topBox img {
-  width: 50%;
+  width: 80px;
+}
+
+.personOperation .container .topBox .left {
+  text-align: center;
+}
+
+.personOperation .container .middleBox {
+  position: relative;
 }
 
 .personOperation .container .middleBox .middleBg {
@@ -608,6 +693,35 @@
   font-weight: 500;
   color: white;
   line-height: 25px;
+  text-align: center;
+}
+
+.personOperation .container .middleBox .path1 {
+  position: absolute;
+  top: 50%;
+  left: 28%;
+  width: 14%;
+}
+
+.personOperation .container .middleBox .path2 {
+  position: absolute;
+  top: 100%;
+  left: 45%;
+  width: 2%;
+}
+
+.personOperation .container .middleBox .path3 {
+  position: absolute;
+  top: 100%;
+  left: 53%;
+  width: 2%;
+}
+
+.personOperation .container .middleBox .path4 {
+  position: absolute;
+  top: 55%;
+  left: 57%;
+  width: 14%;
 }
 
 .cardBox {
@@ -623,11 +737,18 @@
 }
 
 .cardBox .cardWrapper .card {
-  width: 220px;
+  width: 180px;
+  border: none;
 }
 
 .cardBox .cardWrapper .card .img {
   width: 100%;
+}
+
+.cardBox .cardWrapper .card .card-body {
+  box-shadow: 0px 2px 6px 0px #e7e4e4;
+  background: #f3f3f3;
+  padding: 10px;
 }
 
 .cardBox .cardWrapper .card .card-body .card-title {
@@ -639,9 +760,79 @@
 }
 
 .cardBox .cardWrapper .card .card-body .card-text {
-  font-size: 14px;
+  font-size: 12px;
   font-family: PingFang-SC-Medium;
   font-weight: 500;
   color: #333333;
   line-height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .mainbglight .container table {
+    width: 85%;
+    margin-left: 7.5%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .personOperation {
+    padding: 42px 0;
+    background: #f6f6f6;
+  }
+  .personOperation h2 {
+    font-size: 24px;
+    font-family: PingFang-SC-Bold;
+    font-weight: bold;
+    color: #333333;
+    line-height: 34px;
+  }
+  .personOperation .container .bottomBox {
+    width: 85%;
+    margin-left: 7.5%;
+  }
+  .personOperation .container .bottomBox .circleBox {
+    width: 190px;
+  }
+  .personOperation .container .bottomBox .circleBox .circle {
+    width: 100px;
+    height: 100px;
+    border: solid 2px #666;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 45px;
+  }
+  .personOperation .container .bottomBox .circleBox .circle img {
+    vertical-align: middle;
+    width: 30px;
+    margin-top: 30px;
+  }
+  .personOperation .container .bottomBox .circleBox p {
+    font-size: 14px;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #333333;
+    line-height: 25px;
+    text-align: center;
+  }
+  .personOperation .container .topBox {
+    padding-left: 45%;
+  }
+  .personOperation .container .topBox img {
+    width: 60px;
+  }
+  .personOperation .container .topBox .left {
+    text-align: center;
+  }
+  .baner .container .listWrapper {
+    position: relative;
+  }
+  .baner .container .listWrapper:after {
+    position: absolute;
+    width: 2px;
+    height: 40%;
+    right: -80px;
+    top: 40%;
+    background: #34eba4;
+    content: '';
+  }
 }

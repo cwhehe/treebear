@@ -42,11 +42,8 @@
   position: relative;
   
   .bgText {
-    position: absolute;
-    left: 0;
-    top: 0; 
     width: 100%;
-    height: 80%;
+    height: 85%;
     padding: 25px;
     background:url('../img/serve/baner.png') center center no-repeat;
     background-size:cover;
@@ -57,14 +54,17 @@
       font-weight: normal;
       color: rgba(255, 255, 255, 1);
       line-height: 45px;
+     
     }
 
     .row {
+      height:100%;
+      padding-top:2%; 
       .left {
         .downBox {
           a {
             img {
-              width: 40%;
+              width: 50%;
             }
           }
         }
@@ -72,15 +72,33 @@
 
       .right {
         img {
-          width: 38%;
+          width: 42%;
         }
       }
-    }
+    } 
   }
-}
+  .bottomPhone{
+    position: absolute;
+    bottom: 20px;
+    width: 18%;
+    right: 20%;
+  }
 
-.bomBox {
-  width: 100%;
-  height: 200px;
-  background: #f3f3f3;
+}
+@media screen and(min-width:1400px){
+  .banner {
+    .bgText {
+      .row {
+        height:100%;
+        padding-top:8%; 
+      } 
+    }
+    .bottomPhone{
+      position: absolute;
+      bottom: 40px;
+      width: 20%;
+      right: 20%;
+    }
+  
+  }
 }

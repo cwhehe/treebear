@@ -1,5 +1,5 @@
 body {
-  font-family: 'PingFang-SC-Bold';
+  font-family: PingFang-SC-Bold;
   padding: 0;
 }
 
@@ -14,17 +14,17 @@ body {
 .footer {
   background: #333333;
   color: #fff;
-  padding: 15px 0;
+  padding: 35px 0;
 }
 
 .footer div:nth-child(1) img {
   width: 50px;
-  height: 20px;
 }
 
 .footer div:nth-child(1) p {
   font-size: 14px;
   margin: 0;
+  margin-left: 15px;
 }
 
 .footer div {
@@ -36,18 +36,30 @@ body {
   font-size: 14px;
 }
 
+.footer div p:nth-of-type(2) {
+  margin: 10px 0;
+}
+
 .footer div:after {
   content: ' ';
   width: 1px;
   height: 50%;
   position: absolute;
   top: 25%;
-  right: -65%;
+  right: -90px;
   background: #757575;
+}
+
+.footer div:nth-of-type(2) {
+  margin: 0 180px;
 }
 
 .footer div:nth-of-type(3):after {
   display: none;
+}
+
+.footer .appQcode img {
+  width: 80px;
 }
 
 .navbar {
@@ -55,10 +67,15 @@ body {
   background: #333;
   position: fixed;
   z-index: 10;
+  height: 60px;
 }
 
 .navbar .navbar-brand {
   margin-right: 10%;
+}
+
+.navbar .navbar-brand img {
+  width: 50px;
 }
 
 .navbar .nav .nav-item .nav-link {
@@ -79,7 +96,7 @@ body {
   position: relative;
   background: red;
   background: url("../img/banner.jpg") center center no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .banner img {
@@ -90,8 +107,8 @@ body {
   font-size: 32px;
   font-family: 'PingFang-SC-Bold';
   color: white;
-  line-height: 59px;
-  margin-top: 3%;
+  line-height: 40px;
+  margin-top: 5%;
   text-align: center;
   width: 100%;
 }
@@ -137,19 +154,31 @@ body {
   margin-left: 10px;
 }
 
+.banner .k-detail li:nth-of-type(1) {
+  padding: 0;
+}
+
 .banner .k-detail li:nth-of-type(1):after {
   display: none;
+}
+
+.banner .k-detail li:nth-of-type(2) img {
+  width: 20px;
 }
 
 .banner .price {
   width: 100%;
   text-align: center;
-  font-size: 35px;
+  font-size: 32px;
   font-family: PingFangSC-Regular;
   font-weight: 400;
   color: white;
   line-height: 50px;
-  margin-top: 5%;
+  margin-top: 4%;
+}
+
+.banner .price span {
+  font-size: 20px;
 }
 
 .banner .buy {
@@ -158,11 +187,11 @@ body {
 }
 
 .banner .buy a {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'PingFang-SC-Medium';
   font-weight: 500;
   color: white;
-  line-height: 50px;
+  line-height: 40px;
   text-decoration: none;
 }
 
@@ -192,7 +221,7 @@ body {
   font-weight: 500;
   color: #333333;
   line-height: 32px;
-  text-align: right;
+  text-align: left;
   display: none;
 }
 
@@ -205,6 +234,22 @@ body {
   display: none;
 }
 
+.swiperBox1 .slide .swiperIner1 .alert {
+  width: 238px;
+  height: 90px;
+  display: block;
+  background: url(../img/alert.png) center center no-repeat;
+  background-size: contain;
+  text-indent: 35px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 36px;
+  position: absolute;
+  right: 42%;
+  top: 42%;
+  display: none;
+}
+
 .swiperBox1 .slide .swiperIner2 {
   position: relative;
   width: 100%;
@@ -213,16 +258,58 @@ body {
   background-size: cover;
 }
 
+.swiperBox1 .slide .swiperIner2 .innerText {
+  position: absolute;
+  left: 13%;
+  top: 26%;
+}
+
+.swiperBox1 .slide .swiperIner2 .innerText p {
+  font-size: 24px;
+  font-family: PingFang-SC-Bold;
+  font-weight: 500;
+  color: #333333;
+  line-height: 32px;
+  text-align: left;
+  display: none;
+}
+
+.swiperBox1 .slide .swiperIner2 .innerText1 {
+  left: 13%;
+  top: 51%;
+}
+
+.swiperBox1 .slide .swiperIner2 .innerText1 div {
+  display: none;
+}
+
+.swiperBox1 .slide .swiperIner2 .alert2 {
+  width: 238px;
+  height: 90px;
+  display: block;
+  background: url(../img/alert.png) center center no-repeat;
+  background-size: contain;
+  text-indent: 60px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 56px;
+  position: absolute;
+  right: 42%;
+  top: 42%;
+  display: none;
+}
+
 .swiperBox1 .slide:nth-of-type(1) img {
-  width: 18%;
+  width: 17%;
   bottom: 0;
-  right: 2%;
+  right: 24%;
   position: absolute;
   display: none;
 }
 
 .swiperBox1 .slide:nth-of-type(1) img:nth-of-type(2) {
-  right: 18%;
+  right: 24%;
+  width: 18%;
 }
 
 .swiperBox1 .slide:nth-of-type(2) img {
@@ -233,12 +320,13 @@ body {
 }
 
 .swiperBox1 .slide:nth-of-type(2) img:nth-of-type(1) {
-  width: 16%;
-  right: 16%;
+  right: 24%;
 }
 
 .swiperBox1 .slide:nth-of-type(2) img:nth-of-type(2) {
-  right: 36%;
+  right: 25%;
+  width: 16.3%;
+  bottom: 5px;
 }
 
 .swiperBox2 .slide {
@@ -378,30 +466,33 @@ body {
 }
 
 .swiperBox2 .slide img {
-  width: 18%;
-  right: 100px;
+  width: 21%;
+  right: 14%;
   bottom: 0;
   position: absolute;
   vertical-align: middle;
   display: none;
 }
 
-.swiperBox2 .slide:nth-of-type(2) .img4 {
-  right: 3%;
+.swiperBox2 .slide:nth-of-type(2) .img6 {
+  right: 13.9%;
   z-index: 99;
+  bottom: 5px;
 }
 
-.swiperBox2 .slide:nth-of-type(2) .img5 {
-  right: 13.5%;
+.swiperBox2 .slide:nth-of-type(2) .img7 {
+  right: 14%;
+  z-index: 100;
 }
 
-.swiperBox2 .slide:nth-of-type(3) .img6 {
-  right: 3%;
+.swiperBox2 .slide:nth-of-type(3) .img8 {
+  right: 14%;
+  z-index: 100;
+}
+
+.swiperBox2 .slide:nth-of-type(3) .img9 {
+  right: 13.7%;
   z-index: 99;
-}
-
-.swiperBox2 .slide:nth-of-type(3) .img7 {
-  right: 13.5%;
 }
 
 .course-list {
@@ -415,10 +506,10 @@ body {
   text-align: center;
   font-size: 24px;
   font-family: 'PingFang-SC-Bold';
-  font-weight: bold;
   color: #333333;
-  line-height: 45px;
+  line-height: 30px;
   display: none;
+  margin-top: 20px;
 }
 
 .course-list .course-title {
@@ -433,6 +524,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .course-list .course-title p img {
@@ -450,28 +542,49 @@ body {
   margin-left: 10px;
 }
 
+.course-list .course-title p:nth-of-type(1):after {
+  content: '';
+  width: 1px;
+  background: #fff;
+  position: absolute;
+  top: 30%;
+  height: 40%;
+  right: -12.5px;
+}
+
 .course-list .course-title p:nth-of-type(2) {
   margin-right: 0;
 }
 
-.course-list .listUl {
-  width: 75%;
-  margin-left: 12.5%;
-  display: flex;
-  margin-top: 10px;
-  justify-content: space-around;
+.course-list .listUlBox {
+  padding: 10px 0;
   background: #fff;
-  padding: 25px;
+  width: 75%;
+  margin: 30px auto 0;
+  box-shadow: 0px 2px 4px 0px rgba(145, 145, 145, 0.5);
   display: none;
 }
 
-.course-list .listUl li {
-  display: inline-block;
-  text-align: center;
+.course-list .listUlBox .listUl {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  background: #fff;
+  padding: 15px 5px;
 }
 
-.course-list .listUl li img {
-  width: 65%;
+.course-list .listUlBox .listUl li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.course-list .listUlBox .listUl li img {
+  width: 70%;
+}
+
+.course-list .listUlBox .listUl li:nth-last-child(1) {
+  margin-right: 0;
 }
 
 .course-list .listUl:nth-of-type(2),
@@ -486,6 +599,7 @@ body {
 
 .bgGray {
   width: 100%;
+  height: 100%;
   position: relative;
   background: url("../img/bgGray.jpg") center center no-repeat;
   background-size: cover;
@@ -499,14 +613,15 @@ body {
   display: none;
   width: 40%;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 30%;
-  border: solid 1px white;
-  padding: 50px;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  padding: 50px 30px;
 }
 
 .bgGray p {
   color: #fff;
+  display: none;
 }
 
 .bgGray p:nth-of-type(1) {
@@ -515,11 +630,16 @@ body {
 
 .bgGray p:nth-of-type(2) {
   font-size: 20px;
+  margin-top: 40px;
+}
+
+.bgGray p:nth-of-type(5) {
+  margin-bottom: 40px;
 }
 
 .Contrast {
   width: 100%;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .Contrast h2 {
@@ -532,10 +652,17 @@ body {
   display: none;
 }
 
-.Contrast .product {
+.Contrast .productBox {
+  display: none;
+}
+
+.Contrast .productBox .product {
   width: 100%;
   justify-content: center;
-  display: none;
+}
+
+.Contrast .productBox .product img {
+  width: 30%;
 }
 
 .Contrast .p {
@@ -543,9 +670,14 @@ body {
 }
 
 .Contrast .p p:nth-of-type(1) {
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: 600;
   color: #333333;
   line-height: 25px;
+}
+
+.Contrast .p p:nth-of-type(1) span {
+  font-size: 18px;
 }
 
 .Contrast .p p:nth-of-type(2) {
@@ -555,39 +687,66 @@ body {
   line-height: 17px;
 }
 
-.Contrast .div {
+.Contrast .divBox {
   display: none;
+}
+
+.Contrast .divBox .div {
   justify-content: center;
   flex-direction: column;
 }
 
-.Contrast .div .routerUl {
+.Contrast .divBox .div .routerUl {
   display: none;
   justify-content: space-between;
+  padding: 0;
 }
 
-.Contrast .div .routerUl li img {
-  width: 30%;
+.Contrast .divBox .div .routerUl li img {
+  width: 40%;
+  margin-top: 8px;
 }
 
-.Contrast .div .routerUl li p {
+.Contrast .divBox .div .routerUl li p {
   font-size: 12px;
   color: #333333;
   line-height: 25px;
   margin: 0;
 }
 
-.Contrast .div .routerUl li span {
+.Contrast .divBox .div .routerUl li span {
   font-size: 13px;
+  display: inline-block;
+  margin-top: 4px;
 }
 
-.tableBox {
+.Contrast .divBox .div .routerUl li:nth-of-type(3) {
+  margin-top: 10px;
+}
+
+.Contrast .divBox .div .routerUl li:nth-of-type(3) p {
+  margin-top: 8px;
+}
+
+.Contrast .divBox .div .routerUl li:nth-of-type(4) {
+  margin-top: 10px;
+}
+
+.Contrast .divBox .div .routerUl li:nth-of-type(4) img {
+  width: 30%;
+}
+
+.Contrast .divBox .div .routerUl li:nth-of-type(4) p {
+  margin-top: 8px;
+}
+
+#tableBox1 {
   padding: 0 5%;
   background: url("../img/table_bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
-.tableBox h2 {
+#tableBox1 h2 {
   font-size: 24px;
   font-family: PingFang-SC-Bold;
   color: white;
@@ -595,27 +754,102 @@ body {
   display: none;
 }
 
-.tableBox table {
+#tableBox1 table {
   display: none;
   background: #fff;
+  word-wrap: break-word;
+  table-layout: fixed;
+  width: 85%;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px 0px rgba(149, 149, 149, 0.5);
 }
 
-.tableBox table tbody {
+#tableBox1 table tbody {
   font-size: 12px;
 }
 
-.tableBox table tbody .imgTr td {
+#tableBox1 table tbody .imgTr td {
   vertical-align: middle;
-  width: 50%;
 }
 
-.tableBox table tbody tr td {
+#tableBox1 table tbody .imgTr td img {
+  width: 60%;
+}
+
+#tableBox1 table tbody .imgTr td:nth-of-type(1) img {
+  width: 80px;
+}
+
+#tableBox1 table tbody .imgTr td:nth-of-type(2) img {
+  width: 80px;
+}
+
+#tableBox1 table tbody tr td {
   white-space: nowrap;
+  padding: 3px;
+  vertical-align: middle;
+}
+
+#tableBox1 table tbody tr td img {
+  width: 10px;
+}
+
+#tableBox2 {
+  padding: 0 5%;
+  background: url("../img/table_bg.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#tableBox2 h2 {
+  font-size: 24px;
+  font-family: PingFang-SC-Bold;
+  color: white;
+  line-height: 30px;
+  display: none;
+}
+
+#tableBox2 table {
+  background: #fff;
+  word-wrap: break-word;
+  table-layout: fixed;
+  width: 85%;
+  margin: 0 auto;
+  box-shadow: 0px 2px 2px 0px rgba(149, 149, 149, 0.5);
+  display: none;
+}
+
+#tableBox2 table tbody {
+  font-size: 12px;
+}
+
+#tableBox2 table tbody tr td {
+  white-space: nowrap;
+  padding: 3px;
+  vertical-align: middle;
+}
+
+#tableBox2 table tbody tr td img {
+  width: 10px;
+}
+
+#tableBox2 table tbody tr:nth-of-type(5) td p {
+  color: #fd0000;
+}
+
+#tableBox2 table tbody tr:nth-of-type(5) td span {
+  margin: 0;
+  font-size: 12px;
+  display: block;
+  transform: scale(0.85);
+}
+
+#tableBox2 table tbody tr:nth-of-type(4) td p span {
+  color: #fd0000;
 }
 
 .certificateList {
-  padding: 70px 20px;
-  background: url("../img/certificateListBg.png") center center no-repeat;
+  padding: 30px 20px;
+  background: url("../img/certificateListBg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -633,14 +867,19 @@ body {
   color: #333333;
 }
 
-.certificateList .ul {
-  padding: 0 40px;
+.certificateList .ulBox {
   display: none;
-  justify-content: space-around;
 }
 
-.certificateList .ul li img {
-  width: 55%;
+.certificateList .ulBox .ul {
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.certificateList .ulBox .ul li img {
+  width: 70%;
 }
 
 .quesion {
@@ -657,4 +896,23 @@ body {
 
 .quesion .q-text li:nth-of-type(even) {
   text-indent: 25px;
+}
+
+.mobileNav {
+  display: none;
+}
+
+@media screen and (min-width: 1400px) {
+  .course-list .listUlBox .listUl li img {
+    width: 100%;
+  }
+  .certificateList .ulBox .ul li img {
+    width: 85%;
+  }
+  #tableBox1 table tbody tr td {
+    padding: 0.75rem;
+  }
+  #tableBox2 table tbody tr td {
+    padding: 0.75rem;
+  }
 }
