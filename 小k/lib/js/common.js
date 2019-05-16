@@ -1,1 +1,0 @@
-"use strict";$(document).ready(function(){$(".menu").click(function(e){$(e.target);$(".nav-menu").toggleClass("hidden"),$(".menu").toggleClass("show")})});
