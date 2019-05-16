@@ -66,40 +66,25 @@ html.fp-enabled,
 }
 
 .fp-controlArrow {
-    position: absolute;
-    z-index: 4;
-    top: 50%;
-    cursor: pointer;
-    margin-top: -38px;
-    width: 48px;
-    height: 48px;
-    color: #fff;
-    background-color: rgba(0,0,0,.1);
-    padding: 9px;
-    box-sizing: border-box;
-    border-radius: 100%;
-    /* transition: background 1s */
-}
-.fp-controlArrow:before {
-  content: '';
-  width: 15px;
-  height: 15px;
-  display: block;
-  border-width: 2px 2px 0 0;
-  border-style: solid;
-  border-color: #fff;
-  transform: rotate(45deg);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
   position: absolute;
-  margin: 5px;
+  z-index: 4;
+  top: 50%;
+  margin-top: -66px;
+  width: 45px;
+  height: 132px;
+  opacity: .3;
+  cursor: pointer;
+  background: url('https://img.alicdn.com/tfs/TB137qGshTpK1RjSZFKXXa2wXXa-45-132.png') no-repeat 50%;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out
 }
 
-.fp-controlArrow.fp-prev:before {
-  left: 15px;
-  transform: rotate(-135deg);
-}
-.fp-controlArrow.fp-next {
-  right: 35px;
-}
 .fp-controlArrow:hover,
 .fp-controlArrow:active {
   opacity: 1
@@ -111,10 +96,7 @@ html.fp-enabled,
 
 .fp-controlArrow.fp-next {
   right: 60px;
-  /* transform: rotate(180deg) */
-}
-.fp-controlArrow:hover {
-  background-color: rgba(0,0,0,.3);
+  transform: rotate(180deg)
 }
 
 .fp-scrollable {

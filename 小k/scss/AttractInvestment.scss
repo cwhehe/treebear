@@ -13,6 +13,10 @@
   }
 }
 
+.footer {
+  background: #f3f3f3;
+  color: #333;
+}
 
 .detail {
   width: 100%;
@@ -36,7 +40,7 @@
 //baner
 .baner {
   position: relative;
-  background: url('../img/Attract/banner.jpg') center center no-repeat;
+  background: url('../img/Attract/banner.png') center center no-repeat;
   background-size: cover;
 
   .bgText {
@@ -45,14 +49,14 @@
     height: 100%;
     left: 0;
     top: 0;
-    padding: 60px 10px;
+    padding: 40px 10px;
     color: #fff;
   }
 
   h3 {
     font-size: 32px;
     font-family: PingFang-SC-Bold;
-    // font-weight: bold;
+    font-weight: bold;
     color: #fff;
     line-height: 45px;
   }
@@ -75,69 +79,46 @@
   }
 
   .container {
-    .containerWrapper{
-      width:60%;
-      margin:50px auto;
-      .listWrapper {
-        position: relative;
-  
-        p {
-          margin: 0;
-        }
-      
-        img{
-          width:30px;
-        }
-    
-        
-  
-        .ptext1 {
-          font-size:18px;
-          font-family: PingFang-SC-Medium;
-          font-weight: 500;
-          color: #fff;
-          line-height: 25px;
-          margin-top: 8px;
-        }
-  
-        .ptext2 {
-          font-size: 13px;
-          font-family: PingFang-SC-Medium;
-          font-weight: 500;
-          color: #fff;
-          line-height: 25px;
-        }
-  
-        &:after {
-          position: absolute;
-          width: 2px;
-          height: 40%;
-          right: -50px;
-          top: 40%;
-          // background: rgba(52, 235, 164, 1);
-          border-left: dashed 1px #21D1BE;
-          content: '';
-        }
+    .listWrapper {
+      position: relative;
+
+      p {
+        margin: 0;
       }
-      .listWrapper:nth-of-type(2){
-        margin-left:100px;
-        img{
-          width:40px;
-         
-        }
+
+      .ptext1 {
+        font-size: 20px;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+        color: #fff;
+        line-height: 25px;
+        margin-top: 8px;
       }
-      .listWrapper:nth-of-type(3) {
-        margin-left:100px;
-        img{
-          width:40px;
-          margin-top:5px;
-        }
-        &:after {
-          display: none;
-        }
+
+      .ptext2 {
+        font-size: 14px;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+        color: #fff;
+        line-height: 25px;
+      }
+
+      &:after {
+        position: absolute;
+        width: 2px;
+        height: 40%;
+        right: -110%;
+        top: 40%;
+        background: rgba(52, 235, 164, 1);
+        content: '';
       }
     }
-    
+
+    .listWrapper:nth-of-type(3) {
+      &:after {
+        display: none;
+      }
+    }
   }
 }
 
@@ -159,7 +140,6 @@
       font-weight: 500;
       color: rgba(51, 51, 51, 1);
       line-height: 25px;
-      margin-bottom: 20px;
     }
 
     .iconBox {
@@ -197,25 +177,25 @@
         width: 120px;
         height: 140px;
       }
- 
+
       .mainCenterImgBox {
-        margin: 0 40px; 
+        margin: 0 40px;
 
         .mainCenterImg {
-          margin-top: 20px;
-          width: 220px;
+          margin-top: 40px;
+          width: 200px;
         }
-   
+
         .btns {
-          border: none; 
-          width: 180px; 
+          border: none;
+          width: 150px;
           height: 37px;
           margin-top: 40px;
           background: url('../img/Attract/btns.png') center center no-repeat;
           background-size: cover;
-        } 
+        }
       }
-    } 
+    }
   }
 }
 
@@ -223,6 +203,7 @@
 .mainbglight {
   padding: 45px 0;
   background: #ebebeb;
+
   h2 {
     font-size: 24px;
     font-family: PingFang-SC-Medium;
@@ -242,53 +223,44 @@
       color: rgba(51, 51, 51, 1);
       line-height: 25px;
       text-indent: 10px;
-      width:80%;
-      margin-left:10%;
     }
 
     table {
-      width:80%;
-      margin-left:10%;
+
       tr:nth-child(1) {
         background: linear-gradient(135deg, rgba(52, 235, 164, 1) 0%, rgba(26, 209, 204, 1) 100%);
+
         td {
           font-size: 18px;
           font-family: PingFang-SC-Medium;
           font-weight: 500;
-          color:#fff;
+          color: rgba(51, 51, 51, 1);
+          line-height: 25px;
           text-indent: 10px;
-          width:120px;
 
         }
       }
 
       tr {
-        // td:nth-of-type(1) {
-        //   font-size: 18px;
-        //   font-family: PingFang-SC-Medium;
-        //   font-weight: 500;
-        //   color: rgba(51, 51, 51, 1);
-        //   line-height: 25px;
-        // }
+        td:nth-of-type(1) {
+          font-size: 18px;
+          font-family: PingFang-SC-Medium;
+          font-weight: 500;
+          color: rgba(51, 51, 51, 1);
+          line-height: 25px;
+        }
 
         td {
           font-size: 14px;
           font-family: PingFang-SC-Medium;
           font-weight: 500;
           color: rgba(51, 51, 51, 1);
-          vertical-align: middle;
+          line-height: 20px;
         }
       }
     }
   }
 }
-.mainbglight2{
-  table{
-    word-wrap:break-word;
-    table-layout:fixed
-  }
-}
-
 
 //因为专业
 .imgBox {
@@ -309,21 +281,14 @@
     color: rgba(51, 51, 51, 1);
     line-height: 24px;
   }
-  .swiperMedal{
-    margin-top:20px;
-    .swiper-wrapper{
 
-      .swiper-slide{
-        width:100%;
-        height:100%;
-        vertical-align: middle;
-        img{
-          width:100%;
-        }
+  ul {
+    width: 100%;
+
+    li {
+      img {
+        width: 100%;
       }
-      // .swiper-slide:nth-of-type(1){
-
-      // }
     }
   }
 }
@@ -336,7 +301,7 @@
   padding: 50px 0;
 
   img {
-    width: 95%;
+    width: 100%;
   }
 
   .timTextBox {
@@ -363,10 +328,11 @@
       line-height: 25px;
     }
 
-    .container{
-      ul{
-        width:90%;
-        margin-left:5%;
+    ul.container {
+      li {
+        img {
+          width: 80%;
+        }
       }
     }
   }
@@ -436,7 +402,7 @@
 //加盟
 .joinUs {
   padding: 80px 0;
-  background: url('../img/Attract/joinBg.jpg') center center no-repeat;
+  background: url('../img/Attract/joinBg.png') center center no-repeat;
   background-size: cover;
 
   h2 {
@@ -448,10 +414,11 @@
   }
 
   .list {
-    width: 18%;
-    padding: 40px 15px;
+    width: 15%;
+    padding: 40px 25px;
     background: #f2f2f2;
-    border-radius: 4px;
+    border-radius: 6px;
+
     p {
       font-size: 15px;
       font-family: PingFang-SC-Medium;
@@ -464,9 +431,9 @@
 
 // 加盟申请表
 .joinForm {
-  background: url('../img/Attract/joinUsBg.jpg') center center no-repeat;
+  background: url('../img/Attract/joinUsBg.png') center center no-repeat;
   background-size: cover;
- 
+
   h2 {
     font-size: 24px;
     font-family: PingFang-SC-Medium;
@@ -485,10 +452,10 @@
           font-family: PingFang-SC-Medium;
           font-weight: 500;
           color: rgba(255, 255, 255, 1);
-          line-height: 24px;
+          line-height: 50px;
         }
 
-        p { 
+        p {
           font-size: 16px;
           font-family: PingFang-SC-Medium;
           font-weight: 500;
@@ -502,11 +469,9 @@
           font-family: PingFang-SC-Medium;
           font-weight: 500;
           color: rgba(255, 255, 255, 1);
-          line-height: 40px;
+          line-height: 33px;
         }
-        img{ 
-          margin-top:30px;
-        }
+
         &:after {
           content: '';
           width: 1px;
@@ -522,77 +487,62 @@
 
   .right {
     .form-group {
-      margin-bottom:2px;
       label {
         width: 100px;
         text-align: right;
-        color:#fff;
-        font-size: 14px;
       }
 
       input {
         width: 220px;
-        height: 28px;
+        height: 35px;
         border: solid 1px #ededed;
         border-radius: 3px;
-        line-height: 28px;
+        line-height: 35px;
         padding-left: 5px;
-        background: #ededed; 
+        background: #ededed;
       }
 
       .joinBtn {
         background: url('../img/Attract/joinBtn.png') center center no-repeat;
-        background-size: contain; 
+        background-size: contain;
         border: none;
-        margin:8px 0;
-      } 
-    }
-  } 
-}
- 
-//加盟步骤
-.join_stepWrapper{ 
-  background: #f9f9f9;
-
-  .join_step {
-    padding: 40px 0;
-    width:72%;
-    margin-left:14%;
-  
-    h2 {
-      font-size: 24px;
-      font-family: 'PingFang-SC-Bold';
-      // font-weight:bold;
-      color: rgba(51, 51, 51, 1);
-      line-height: 34px;
-    }
-  
-    .joinStep {
-      .joinStepList {
-        width: 80px;
-  
-        img {
-          width: 40%;
-         
-        }
-        
-  
-        p {
-          font-size: 14px;
-          font-family: PingFang-SC-Medium;
-          font-weight: 500;
-          color: rgba(51, 51, 51, 1);
-          line-height: 20px;
-          margin-top: 12px;
-        }
-        p:nth-of-type(1),:nth-of-type(5){
-          height:40px;
-        }
       }
     }
   }
 }
 
+//加盟步骤
+.join_step {
+  padding: 40px 0;
+  background: #f9f9f9;
+
+  h2 {
+    font-size: 24px;
+    font-family: 'PingFang-SC-Bold';
+    // font-weight:bold;
+    color: rgba(51, 51, 51, 1);
+    line-height: 34px;
+  }
+
+  .joinStep {
+    .joinStepList {
+      width: 120px;
+
+      img {
+        width: 30%;
+      }
+
+      p {
+        font-size: 14px;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+        color: rgba(51, 51, 51, 1);
+        line-height: 24px;
+        margin-top: 12px;
+      }
+    }
+  }
+}
 
 //personOperation
 .personOperation {
@@ -609,18 +559,16 @@
 
   .container {
     .bottomBox {
-      width:70%;
-      margin-left:15%;
-      margin-top:30px;
       .circleBox {
         width: 190px;
+
         .circle {
-          width: 100px;
-          height: 100px;
+          width: 120px;
+          height: 120px;
           border: solid 2px #666;
           border-radius: 50%;
           text-align: center;
-          margin-left:45px;
+
           img {
             vertical-align: middle;
             width: 30px;
@@ -635,26 +583,22 @@
           font-weight: 500;
           color: rgba(51, 51, 51, 1);
           line-height: 25px;
-          text-align:center;
         }
       }
 
     }
 
     .topBox {
-      padding-left: 45%;
+      padding-left: 40%;
 
       img {
-        width: 80px;
+        width: 50%;
       }
 
-      .left {
-        text-align:center;
-      }
+      .left {}
     }
 
     .middleBox {
-      position:relative;
       .middleBg {
         width: 113px;
         height: 113px;
@@ -669,34 +613,9 @@
           font-weight: 500;
           color: rgba(255, 255, 255, 1);
           line-height: 25px;
-          text-align:center;
-
         }
       }
-      .path1{
-        position:absolute;
-        top: 50%;
-        left: 28%;
-        width:14%;
-      }
-      .path2{
-        position: absolute;
-        top: 100%;
-        left: 45%;
-        width: 2%;
-      }
-      .path3{
-        position: absolute;
-        top: 100%;
-        left:53%;
-        width: 2%;
-      }
-      .path4{
-        position: absolute;
-        top: 55%;
-        left: 57%;
-        width: 14%;
-      }
+
     }
   }
 }
@@ -711,18 +630,12 @@
     line-height:34px;
   }
   .cardWrapper{
-    // width:80%;
-    // margin-left:10%;
     .card{
-      width:180px;
-      border:none;
+      width:220px;
       .img{
         width:100%;
       }
       .card-body{
-        box-shadow:0px 2px 6px 0px #e7e4e4;
-        background:#f3f3f3;
-        padding:10px;
         .card-title{
           font-size:18px;
           font-family:PingFang-SC-Medium;
@@ -731,7 +644,7 @@
           line-height:24px;
         }
         .card-text{
-          font-size:12px;
+          font-size:14px;
           font-family:PingFang-SC-Medium;
           font-weight:500;
           color:rgba(51,51,51,1);
@@ -741,96 +654,4 @@
       }
     }
   }
-}
-
-@media screen and(max-width:767px) {
-  .mainbglight{
-    .container{
-      table{
-        width:85%;
-        margin-left:7.5%;
-      }
-    }
-  }
-}
-
-@media screen and (max-width:1080px){
-  .personOperation {
-    padding: 42px 0;
-    background: #f6f6f6;
-  
-    h2 {
-      font-size: 24px;
-      font-family: PingFang-SC-Bold;
-      font-weight: bold;
-      color: rgba(51, 51, 51, 1);
-      line-height: 34px;
-    }
-  
-    .container {
-      .bottomBox {
-        width:85%;
-        margin-left:7.5%;
-        .circleBox {
-          width: 190px;
-          .circle {
-            width: 100px;
-            height: 100px;
-            border: solid 2px #666;
-            border-radius: 50%;
-            text-align: center;
-            margin-left:45px;
-            img {
-              vertical-align: middle;
-              width: 30px;
-              margin-top: 30px;
-            }
-  
-          }
-  
-          p {
-            font-size: 14px;
-            font-family: PingFang-SC-Medium;
-            font-weight: 500;
-            color: rgba(51, 51, 51, 1);
-            line-height: 25px;
-            text-align:center;
-          }
-        }
-  
-      }
-  
-      .topBox {
-        padding-left: 45%;
-  
-        img {
-          width: 60px;
-        }
-  
-        .left {
-          text-align:center;
-        }
-      }
-  
-
-    }
-  }
-
-  .baner{
-    .container{
-      .listWrapper {
-        position: relative;
-        &:after {
-          position: absolute;
-          width: 2px;
-          height: 40%;
-          right: -80px;
-          top: 40%;
-          background: rgba(52, 235, 164, 1);
-          content: '';
-        }
-      }
-    }
-  }
- 
 }
