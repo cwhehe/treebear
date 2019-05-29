@@ -2,7 +2,7 @@
   "name": "starfast_front",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "dingsy <23360147@qq.com>",
+  "author": "c <",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
