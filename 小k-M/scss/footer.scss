@@ -1,0 +1,48 @@
+footer{
+  width:7.5rem;
+  // height:4.25rem;
+  background:rgba(51,51,51,1);
+  padding:.58rem .3rem .75rem;
+  .footer{ 
+    li{
+     height:.68rem;
+     border-top:1px solid rgba(153,153,153,1);
+     a{
+       width:100%;
+       display:flex;
+       justify-content:space-between;
+      font-size:.28rem;
+      font-family:PingFangSC-Regular;
+      font-weight:400;
+      color:rgba(248,248,248,1);
+      line-height:.68rem;
+      span{
+        width:40px; 
+        text-align:center;
+        img{
+          width:.3rem;
+          // display:block;
+        }
+      } 
+     }
+     .footerMenu{
+       margin-left:.5rem;
+       li{
+         border:none;
+         height:.6rem;
+         p{
+          font-size:.24rem;
+          font-family:PingFangSC-Regular;
+          font-weight:400;
+          color:rgba(252,252,252,1);
+          line-height:33px;
+         }
+       }
+     }
+    }
+    li:nth-last-of-type(1){
+     border-bottom:1px solid rgba(153,153,153,1);
+
+    }
+  }
+}

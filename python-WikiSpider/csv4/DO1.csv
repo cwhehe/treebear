@@ -1,0 +1,33 @@
+Code,Subdivision name ,Subdivision category,Parent subdivision
+DO-01,Distrito Nacional,district,DO-40
+DO-02,Azua,province,DO-41
+DO-03,Baoruco,province,DO-38
+DO-04,Barahona,province,DO-38
+DO-05,Dajabón,province,DO-34
+DO-06,Duarte,province,DO-33
+DO-08,El Seibo,province,DO-42
+DO-09,Espaillat,province,DO-35
+DO-30,Hato Mayor,province,DO-39
+DO-10,Independencia,province,DO-38
+DO-11,La Altagracia,province,DO-42
+DO-07,Elías Piña,province,DO-37
+DO-12,La Romana,province,DO-42
+DO-13,La Vega,province,DO-36
+DO-14,María Trinidad Sánchez,province,DO-33
+DO-28,Monseñor Nouel,province,DO-36
+DO-15,Monte Cristi,province,DO-34
+DO-29,Monte Plata,province,DO-39
+DO-16,Pedernales,province,DO-38
+DO-17,Peravia,province,DO-41
+DO-18,Puerto Plata,province,DO-35
+DO-19,Hermanas Mirabal,province,DO-33
+DO-20,Samaná,province,DO-33
+DO-21,San Cristóbal,province,DO-41
+DO-31,San José de Ocoa,province,DO-41
+DO-22,San Juan,province,DO-37
+DO-23,San Pedro de Macorís,province,DO-39
+DO-24,Sánchez Ramírez,province,DO-36
+DO-25,Santiago,province,DO-35
+DO-26,Santiago Rodríguez,province,DO-34
+DO-32,Santo Domingo,province,DO-40
+DO-27,Valverde,province,DO-34

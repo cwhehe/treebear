@@ -1,0 +1,111 @@
+.text-center {
+  text-align: center !important;
+}
+
+.nav {
+  width: 7.5rem;
+  height: 0.88rem;
+  background: #333333;
+  display: flex;
+  align-items: center;
+  padding: 0 .3rem;
+  justify-content: space-between;
+}
+
+.nav .navLink {
+  display: flex;
+}
+
+.nav .navLink a {
+  width: .66rem;
+  height: .34rem;
+  display: block;
+}
+
+.nav .navLink a img {
+  width: 100%;
+  display: block;
+}
+
+.nav .navLink p {
+  font-size: .28rem;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: white;
+  line-height: .4rem;
+}
+
+.nav .menuBtn img {
+  width: .36rem;
+  height: .3rem;
+  display: block;
+}
+
+footer {
+  width: 7.5rem;
+  height: 4.25rem;
+  background: #333333;
+  padding: .58rem .3rem .75rem;
+}
+
+footer .footer li {
+  height: .68rem;
+  border-top: 1px solid #999999;
+}
+
+footer .footer li a {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: .28rem;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #f8f8f8;
+  line-height: .68rem;
+}
+
+footer .footer li:nth-last-of-type(1) {
+  border-bottom: 1px solid #999999;
+}
+
+.login {
+  width: 100%;
+  padding: .2rem .3rem;
+  background: #f3f3f3;
+}
+
+.login .loginForm {
+  padding: .35rem .44rem .47rem .51rem;
+  background: #fff;
+}
+
+.login .loginForm h2 {
+  font-size: .36rem;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #333333;
+  line-height: .5rem;
+}
+
+.login .loginForm .userName, .login .loginForm .pwd {
+  margin-top: .25rem;
+  width: 100%;
+  height: .83rem;
+  border-radius: .06rem;
+  border: 1px solid #999999;
+  font-size: .24rem;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #999999;
+  line-height: 33px;
+  text-indent: 10px;
+}
+
+.login .loginForm .btn {
+  border: none;
+  width: 100%;
+  margin-top: .48rem;
+  height: .91rem;
+  background: url("../img/news/btn.png") center center no-repeat;
+  background-size: contain;
+}

@@ -1,0 +1,51 @@
+footer {
+  width: 7.5rem;
+  background: #333333;
+  padding: .58rem .3rem .75rem;
+}
+
+footer .footer li {
+  height: .68rem;
+  border-top: 1px solid #999999;
+}
+
+footer .footer li a {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: .28rem;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #f8f8f8;
+  line-height: .68rem;
+}
+
+footer .footer li a span {
+  width: 40px;
+  text-align: center;
+}
+
+footer .footer li a span img {
+  width: .3rem;
+}
+
+footer .footer li .footerMenu {
+  margin-left: .5rem;
+}
+
+footer .footer li .footerMenu li {
+  border: none;
+  height: .6rem;
+}
+
+footer .footer li .footerMenu li p {
+  font-size: .24rem;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #fcfcfc;
+  line-height: 33px;
+}
+
+footer .footer li:nth-last-of-type(1) {
+  border-bottom: 1px solid #999999;
+}

@@ -1,0 +1,31 @@
+Code,Subdivision name ,Subdivision category,Parent subdivision
+RS-00,Beograd,city,—
+RS-14,Borski okrug,district,—
+RS-11,Braničevski okrug,district,—
+RS-23,Jablanički okrug,district,—
+RS-06,Južnobački okrug,district,RS-VO
+RS-04,Južnobanatski okrug,district,RS-VO
+RS-09,Kolubarski okrug,district,—
+RS-25,Kosovski okrug,district,RS-KM
+RS-28,Kosovsko-Mitrovački okrug,district,RS-KM
+RS-29,Kosovsko-Pomoravski okrug,district,RS-KM
+RS-08,Mačvanski okrug,district,—
+RS-17,Moravički okrug,district,—
+RS-20,Nišavski okrug,district,—
+RS-24,Pčinjski okrug,district,—
+RS-26,Pećki okrug,district,RS-KM
+RS-22,Pirotski okrug,district,—
+RS-10,Podunavski okrug,district,—
+RS-13,Pomoravski okrug,district,—
+RS-27,Prizrenski okrug,district,RS-KM
+RS-19,Rasinski okrug,district,—
+RS-18,Raški okrug,district,—
+RS-01,Severnobački okrug,district,RS-VO
+RS-03,Severnobanatski okrug,district,RS-VO
+RS-02,Srednjebanatski okrug,district,RS-VO
+RS-07,Sremski okrug,district,RS-VO
+RS-12,Šumadijski okrug,district,—
+RS-21,Toplički okrug,district,—
+RS-15,Zaječarski okrug,district,—
+RS-05,Zapadnobački okrug,district,RS-VO
+RS-16,Zlatiborski okrug,district,—

@@ -1,0 +1,115 @@
+@import 'nav.scss';
+@import 'footer.scss';
+.baner{
+  width:100%;
+  height:3.38rem;
+  background:url(../img/concat/baner.jpg) center center no-repeat;
+  background-size:cover;
+}
+.main{
+  padding:.35rem .7rem;
+  background:#fff;
+  h2{
+    font-size:.24rem;
+    font-family:PingFang-SC-Bold;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    line-height:.33rem;
+    margin-top:.2rem;
+  }
+  .phone{
+    font-size:.32rem;
+    font-family:PingFang-SC-Bold;
+    font-weight:bold;
+    color:#21D1BE;
+    line-height:.33rem;
+    margin-top:.1rem; 
+  }
+  .text{
+    font-size:.24rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(102,102,102,1);
+    line-height:.36rem;
+    margin-top:.15rem;
+  }
+}
+.operateBox{
+  font-size:0;
+    padding:.2rem 0 .6rem;
+    background:#f8f8f8;
+  h2{
+    font-size:.28rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    line-height:.4rem;
+  }
+  h4{
+    font-size:.24rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(102,102,102,1);
+    line-height:.4rem;
+  }
+  .operateWrapper{
+    display:flex;
+    justify-content: space-around;
+    padding:0 .32rem;
+    margin-top:.36rem;
+    .operateList{
+      margin-right:.4rem;
+      img{
+        width:.44rem;
+      }
+      p:nth-of-type(1){
+        font-size:.26rem;
+        font-family:PingFangSC-Semibold;
+        font-weight:900;
+        color:#333;
+        line-height:.33rem;
+        margin-top:.1rem; 
+      }
+      p:nth-of-type(2),p:nth-of-type(3){
+        font-size:.24rem;  
+        font-family:PingFangSC-Semibold;
+        color:#393639;
+        line-height:.33rem;
+        transform: scale(0.9);
+
+      }
+    }
+    
+    .operateList:nth-of-type(2),.operateList:nth-of-type(3){
+      img{
+      width:.56rem;
+
+      }
+    }
+    .operateList:nth-of-type(4){
+      margin:0;
+      img{
+      width:.46rem;
+
+      }
+    }
+   
+  }
+}
+.map{
+  width:100%;
+  height:3.45rem;
+  padding:.33rem .28rem .26rem;
+  background:#fff;
+  position: relative;
+  img{
+    width:100%;
+    display:block;
+  }
+  .location{
+    position: absolute;
+    left:1.76rem;
+    bottom:.52rem;
+    width:2.99rem;
+  }
+}

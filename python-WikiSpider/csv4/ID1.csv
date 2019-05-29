@@ -1,0 +1,35 @@
+Code,Subdivision name ,Local variant,Subdivision name ,Subdivision type,In geographical unit
+ID-AC,Aceh,,Aceh,province,SM
+ID-BA,Bali,,Bali,province,NU
+ID-BB,Kepulauan Bangka Belitung,,Bangka Belitung Islands,province,SM
+ID-BT,Banten,,Banten,province,JW
+ID-BE,Bengkulu,,Bengkulu,province,SM
+ID-GO,Gorontalo,,Gorontalo,province,SL
+ID-JA,Jambi,,Jambi,province,SM
+ID-JB,Jawa Barat,,West Java,province,JW
+ID-JT,Jawa Tengah,,Central Java,province,JW
+ID-JI,Jawa Timur,,East Java,province,JW
+ID-KB,Kalimantan Barat,,West Kalimantan,province,KA
+ID-KS,Kalimantan Selatan,,South Kalimantan,province,KA
+ID-KT,Kalimantan Tengah,,Central Kalimantan,province,KA
+ID-KI,Kalimantan Timur,,East Kalimantan,province,KA
+ID-KU,Kalimantan Utara,,North Kalimantan,province,KA
+ID-KR,Kepulauan Riau,,Riau Islands,province,SM
+ID-LA,Lampung,,Lampung,province,SM
+ID-MA,Maluku,,Maluku,province,ML
+ID-MU,Maluku Utara,,North Maluku,province,ML
+ID-NB,Nusa Tenggara Barat,,West Nusa Tenggara,province,NU
+ID-NT,Nusa Tenggara Timur,,East Nusa Tenggara,province,NU
+ID-PA,Papua,,Papua,province,PP
+ID-PB,Papua Barat,,West Papua,province,PP
+ID-RI,Riau,,Riau,province,SM
+ID-SR,Sulawesi Barat,,West Sulawesi,province,SL
+ID-SN,Sulawesi Selatan,,South Sulawesi,province,SL
+ID-ST,Sulawesi Tengah,,Central Sulawesi,province,SL
+ID-SG,Sulawesi Tenggara,,Southeast Sulawesi,province,SL
+ID-SA,Sulawesi Utara,,North Sulawesi,province,SL
+ID-SB,Sumatera Barat,,West Sumatra,province,SM
+ID-SS,Sumatera Selatan,,South Sumatra,province,SM
+ID-SU,Sumatera Utara,,North Sumatra,province,SM
+ID-JK,Jakarta Raya,DKI Jakarta; DKI,Jakarta,capital district,JW
+ID-YO,Yogyakarta,DI Yogya; DIY,Yogyakarta,special region,JW

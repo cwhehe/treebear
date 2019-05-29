@@ -1,0 +1,84 @@
+Code,Subdivision name ,,Subdivision category
+RU-AD,Adygeya Respublika,Adygeja Respublika,republic
+RU-AL,Altay Respublika,Altaj Respublika,republic
+RU-BA,Bashkortostan Respublika,Baškortostan Respublika,republic
+RU-BU,Buryatiya Respublika,Burjatija Respublika,republic
+RU-CE,Chechenskaya Respublika,Čečenskaja Respublika,republic
+RU-CU,Chuvashskaya Respublika,Čuvašskaja Respublika,republic
+RU-DA,Dagestan Respublika,Dagestan Respublika,republic
+RU-IN,Ingushetiya Respublika,Ingušetija Respublika,republic
+RU-KB,Kabardino-Balkarskaya Respublika,Kabardino-Balkarskaja Respublika,republic
+RU-KL,Kalmykiya Respublika,Kalmykija Respublika,republic
+RU-KC,Karachayevo-Cherkesskaya Respublika,Karačaevo-Čerkesskaja Respublika,republic
+RU-KR,Kareliya Respublika,Karelija Respublika,republic
+RU-KK,Khakasiya Respublika,Hakasija Respublika,republic
+RU-KO,Komi Respublika,Komi Respublika,republic
+RU-ME,Mariy El Respublika,Marij Èl Respublika,republic
+RU-MO,Mordoviya Respublika,Mordovija Respublika,republic
+RU-SA,Saha Respublika,Sakha Respublika,republic
+RU-SE,Severnaya Osetiya Respublika,Severnaja Osetija Respublika,republic
+RU-TA,Tatarstan Respublika,Tatarstan Respublika,republic
+RU-TY,Tyva Respublika,Tyva Respublika,republic
+RU-UD,Udmurtskaya Respublika,Udmurtskaja Respublika,republic
+RU-ALT,Altayskiy kray,Altajskij kraj,administrative territory
+RU-KAM,Kamchatskiy kray,Kamčatskij kraj,administrative territory
+RU-KHA,Khabarovskiy kray,Habarovskij kraj,administrative territory
+RU-KDA,Krasnodarskiy kray,Krasnodarskij kraj,administrative territory
+RU-KYA,Krasnoyarskiy kray,Krasnojarskij kraj,administrative territory
+RU-PER,Permskiy kray,Permskij kraj,administrative territory
+RU-PRI,Primorskiy kray,Primorskij kraj,administrative territory
+RU-STA,Stavropol'skiy kray,Stavropol'skij kraj,administrative territory
+RU-ZAB,Zabaykal'skiy kray,Zabajkal'skij kraj,administrative territory
+RU-AMU,Amurskaya oblast',Amurskaja oblast',administrative region
+RU-ARK,Arkhangel'skaya oblast',Arhangel'skaja oblast',administrative region
+RU-AST,Astrakhanskaya oblast',Astrahanskaja oblast',administrative region
+RU-BEL,Belgorodskaya oblast',Belgorodskaja oblast',administrative region
+RU-BRY,Bryanskaya oblast',Brjanskaja oblast',administrative region
+RU-CHE,Chelyabinskaya oblast',Čeljabinskaja oblast',administrative region
+RU-IRK,Irkutskaya oblast',Irkutskaja oblast',administrative region
+RU-IVA,Ivanovskaya oblast',Ivanovskaja oblast',administrative region
+RU-KGD,Kaliningradskaya oblast',Kaliningradskaja oblast',administrative region
+RU-KLU,Kaluzhskaya oblast',Kalužskaja oblast',administrative region
+RU-KEM,Kemerovskaya oblast',Kemerovskaja oblast',administrative region
+RU-KIR,Kirovskaya oblast',Kirovskaja oblast',administrative region
+RU-KOS,Kostromskaya oblast',Kostromskaja oblast',administrative region
+RU-KGN,Kurganskaya oblast',Kurganskaja oblast',administrative region
+RU-KRS,Kurskaya oblast',Kurskaja oblast',administrative region
+RU-LEN,Leningradskaya oblast',Leningradskaja oblast',administrative region
+RU-LIP,Lipetskaya oblast',Lipeckaja oblast',administrative region
+RU-MAG,Magadanskaya oblast',Magadanskaja oblast',administrative region
+RU-MOS,Moskovskaya oblast',Moskovskaja oblast',administrative region
+RU-MUR,Murmanskaya oblast',Murmanskaja oblast',administrative region
+RU-NIZ,Nizhegorodskaya oblast',Nižegorodskaja oblast',administrative region
+RU-NGR,Novgorodskaya oblast',Novgorodskaja oblast',administrative region
+RU-NVS,Novosibirskaya oblast',Novosibirskaja oblast',administrative region
+RU-OMS,Omskaya oblast',Omskaja oblast',administrative region
+RU-ORE,Orenburgskaya oblast',Orenburgskaja oblast',administrative region
+RU-ORL,Orlovskaya oblast',Orlovskaja oblast',administrative region
+RU-PNZ,Penzenskaya oblast',Penzenskaja oblast',administrative region
+RU-PSK,Pskovskaya oblast',Pskovskaja oblast',administrative region
+RU-ROS,Rostovskaya oblast',Rostovskaja oblast',administrative region
+RU-RYA,Ryazanskaya oblast',Rjazanskaja oblast',administrative region
+RU-SAK,Sakhalinskaya oblast',Sahalinskaja oblast',administrative region
+RU-SAM,Samarskaya oblast',Samarskaja oblast',administrative region
+RU-SAR,Saratovskaya oblast',Saratovskaja oblast',administrative region
+RU-SMO,Smolenskaya oblast',Smolenskaja oblast',administrative region
+RU-SVE,Sverdlovskaya oblast',Sverdlovskaja oblast',administrative region
+RU-TAM,Tambovskaya oblast',Tambovskaja oblast',administrative region
+RU-TOM,Tomskaya oblast',Tomskaja oblast',administrative region
+RU-TUL,Tul'skaya oblast',Tul'skaja oblast',administrative region
+RU-TVE,Tverskaya oblast',Tverskaja oblast',administrative region
+RU-TYU,Tyumenskaya oblast',Tjumenskaja oblast',administrative region
+RU-ULY,Ul'yanovskaya oblast',Ul'janovskaja oblast',administrative region
+RU-VLA,Vladimirskaya oblast',Vladimirskaja oblast',administrative region
+RU-VGG,Volgogradskaya oblast',Volgogradskaja oblast',administrative region
+RU-VLG,Vologodskaya oblast',Vologodskaja oblast',administrative region
+RU-VOR,Voronezhskaya oblast',Voronežskaja oblast',administrative region
+RU-YAR,Yaroslavskaya oblast',Jaroslavskaja oblast',administrative region
+RU-MOW,Moskva,Moskva,autonomous city
+RU-SPE,Sankt-Peterburg,Sankt-Peterburg,autonomous city
+RU-YEV,Yevreyskaya avtonomnaya oblast',Evrejskaja avtonomnaja oblast',autonomous region
+RU-CHU,Chukotskiy avtonomnyy okrug,Čukotskij avtonomnyj okrug,autonomous district
+RU-KHM,Khanty-Mansiyskiy avtonomnyy okrug,Hanty-Mansijskij avtonomnyj okrug,autonomous district
+RU-NEN,Nenetskiy avtonomnyy okrug,Neneckij avtonomnyj okrug,autonomous district
+RU-YAN,Yamalo-Nenetskiy avtonomnyy okrug,Jamalo-Neneckij avtonomnyj okrug,autonomous district

@@ -1,0 +1,27 @@
+@import 'nav.scss';
+@import 'footer.scss';
+.baner{
+  width:7.5rem;
+  height:3.5rem;
+  background:url('../img/about/banner.png') center center no-repeat;
+  
+}
+.componyDetail{
+  width:100%;
+  padding:.3rem .33rem; 
+  h2{ 
+    font-size:.28rem;
+    font-family:'PingFang-SC-Medium';
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    line-height:.4rem; 
+  }
+  p{ 
+    font-size:.24rem;
+    font-family:'PingFang-SC-Medium';
+    // font-weight:500;
+    color:rgba(51,51,51,1);
+    line-height:.36rem;
+    margin-top:.3rem;
+  }
+}

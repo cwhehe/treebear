@@ -1,0 +1,35 @@
+Code,Subdivision name,Subdivision name ,Subdivision category
+CN-AH,Anhui Sheng,安徽省,province
+CN-BJ,Beijing Shi,北京市,municipality
+CN-CQ,Chongqing Shi,重庆市,municipality
+CN-FJ,Fujian Sheng,福建省,province
+CN-GD,Guangdong Sheng,广东省,province
+CN-GS,Gansu Sheng,甘肃省,province
+CN-GX,Guangxi Zhuangzu Zizhiqu,广西壮族自治区,autonomous region
+CN-GZ,Guizhou Sheng,贵州省,province
+CN-HA,Henan Sheng,河南省,province
+CN-HB,Hubei Sheng,湖北省,province
+CN-HE,Hebei Sheng,河北省,province
+CN-HI,Hainan Sheng,海南省,province
+CN-HK,Hong Kong SAR,香港特别行政区,special administrative region
+CN-HL,Heilongjiang Sheng,黑龙江省,province
+CN-HN,Hunan Sheng,湖南省,province
+CN-JL,Jilin Sheng,吉林省,province
+CN-JS,Jiangsu Sheng,江苏省,province
+CN-JX,Jiangxi Sheng,江西省,province
+CN-LN,Liaoning Sheng,辽宁省,province
+CN-MO,Macao SAR,澳门特别行政区,special administrative region
+CN-NM,Nei Mongol Zizhiqu,内蒙古自治区,autonomous region
+CN-NX,Ningxia Huizi Zizhiqu,宁夏回族自治区,autonomous region
+CN-QH,Qinghai Sheng,青海省,province
+CN-SC,Sichuan Sheng,四川省,province
+CN-SD,Shandong Sheng,山东省,province
+CN-SH,Shanghai Shi,上海市,municipality
+CN-SN,Shaanxi Sheng,陕西省,province
+CN-SX,Shanxi Sheng,山西省,province
+CN-TJ,Tianjin Shi,天津市,municipality
+CN-TW,Taiwan Sheng,台湾省,province
+CN-XJ,Xinjiang Uygur Zizhiqu,新疆维吾尔自治区,autonomous region
+CN-XZ,Xizang Zizhiqu,西藏自治区,autonomous region
+CN-YN,Yunnan Sheng,云南省,province
+CN-ZJ,Zhejiang Sheng,浙江省,province
